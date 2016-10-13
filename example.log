@@ -1,0 +1,500 @@
+DEBUG Forwarding setTimeout on session e1a794d5-b3bc-4e0d-bd27-d86cf54a7069 to remote org.apache.http.wire - http-outgoing-0 >> "Content-Length: 30[\r][\n]"
+DEBUG Forwarding setTimeout on session e1a794d5-b3bc-4e0d-bd27-d86cf54a7069 to remote org.apache.http.wire - http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+DEBUG Forwarding setTimeout on session e1a794d5-b3bc-4e0d-bd27-d86cf54a7069 to remote org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG Forwarding setTimeout on session e1a794d5-b3bc-4e0d-bd27-d86cf54a7069 to remote org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_55)[\r][\n]"
+DEBUG Forwarding setTimeout on session e1a794d5-b3bc-4e0d-bd27-d86cf54a7069 to remote org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG Forwarding setTimeout on session e1a794d5-b3bc-4e0d-bd27-d86cf54a7069 to remote org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG Forwarding setTimeout on session e1a794d5-b3bc-4e0d-bd27-d86cf54a7069 to remote org.apache.http.wire - http-outgoing-0 >> "{"type":"implicit","ms":60000}"
+DEBUG Forwarding setTimeout on session e1a794d5-b3bc-4e0d-bd27-d86cf54a7069 to remote org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG Forwarding setTimeout on session e1a794d5-b3bc-4e0d-bd27-d86cf54a7069 to remote org.apache.http.wire - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+DEBUG Forwarding setTimeout on session e1a794d5-b3bc-4e0d-bd27-d86cf54a7069 to remote org.apache.http.wire - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+DEBUG Forwarding setTimeout on session e1a794d5-b3bc-4e0d-bd27-d86cf54a7069 to remote org.apache.http.wire - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+DEBUG Forwarding setTimeout on session e1a794d5-b3bc-4e0d-bd27-d86cf54a7069 to remote org.apache.http.wire - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+DEBUG Forwarding setTimeout on session e1a794d5-b3bc-4e0d-bd27-d86cf54a7069 to remote org.apache.http.wire - http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+DEBUG Forwarding setTimeout on session e1a794d5-b3bc-4e0d-bd27-d86cf54a7069 to remote org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+DEBUG Forwarding setTimeout on session e1a794d5-b3bc-4e0d-bd27-d86cf54a7069 to remote org.apache.http.wire - http-outgoing-0 << "Content-Length: 76[\r][\n]"
+DEBUG Forwarding setTimeout on session e1a794d5-b3bc-4e0d-bd27-d86cf54a7069 to remote org.apache.http.wire - http-outgoing-0 << "ETag: W/"4c-RcV+FO+d6Eus3IgURaPFCQ"[\r][\n]"
+DEBUG Forwarding setTimeout on session e1a794d5-b3bc-4e0d-bd27-d86cf54a7069 to remote org.apache.http.wire - http-outgoing-0 << "Date: Tue, 11 Oct 2016 06:08:29 GMT[\r][\n]"
+DEBUG Forwarding setTimeout on session e1a794d5-b3bc-4e0d-bd27-d86cf54a7069 to remote org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+DEBUG Forwarding setTimeout on session e1a794d5-b3bc-4e0d-bd27-d86cf54a7069 to remote org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG Forwarding setTimeout on session e1a794d5-b3bc-4e0d-bd27-d86cf54a7069 to remote org.apache.http.wire - http-outgoing-0 << "{"status":0,"value":null,"sessionId":"e1a794d5-b3bc-4e0d-bd27-d86cf54a7069"}"
+DEBUG Forwarding setTimeout on session e1a794d5-b3bc-4e0d-bd27-d86cf54a7069 to remote org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+DEBUG Forwarding setTimeout on session e1a794d5-b3bc-4e0d-bd27-d86cf54a7069 to remote org.apache.http.headers - http-outgoing-0 << X-Powered-By: Express
+DEBUG Forwarding setTimeout on session e1a794d5-b3bc-4e0d-bd27-d86cf54a7069 to remote org.apache.http.headers - http-outgoing-0 << Access-Control-Allow-Origin: *
+DEBUG Forwarding setTimeout on session e1a794d5-b3bc-4e0d-bd27-d86cf54a7069 to remote org.apache.http.headers - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+DEBUG Forwarding setTimeout on session e1a794d5-b3bc-4e0d-bd27-d86cf54a7069 to remote org.apache.http.headers - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+DEBUG Forwarding setTimeout on session e1a794d5-b3bc-4e0d-bd27-d86cf54a7069 to remote org.apache.http.headers - http-outgoing-0 << Vary: X-HTTP-Method-Override
+DEBUG Forwarding setTimeout on session e1a794d5-b3bc-4e0d-bd27-d86cf54a7069 to remote org.apache.http.headers - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+DEBUG Forwarding setTimeout on session e1a794d5-b3bc-4e0d-bd27-d86cf54a7069 to remote org.apache.http.headers - http-outgoing-0 << Content-Length: 76
+DEBUG Forwarding setTimeout on session e1a794d5-b3bc-4e0d-bd27-d86cf54a7069 to remote org.apache.http.headers - http-outgoing-0 << ETag: W/"4c-RcV+FO+d6Eus3IgURaPFCQ"
+DEBUG Forwarding setTimeout on session e1a794d5-b3bc-4e0d-bd27-d86cf54a7069 to remote org.apache.http.headers - http-outgoing-0 << Date: Tue, 11 Oct 2016 06:08:29 GMT
+DEBUG Forwarding setTimeout on session e1a794d5-b3bc-4e0d-bd27-d86cf54a7069 to remote org.apache.http.headers - http-outgoing-0 << Connection: keep-alive
+DEBUG Forwarding setTimeout on session e1a794d5-b3bc-4e0d-bd27-d86cf54a7069 to remote org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+DEBUG Forwarding setTimeout on session e1a794d5-b3bc-4e0d-bd27-d86cf54a7069 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+DEBUG Forwarding setTimeout on session e1a794d5-b3bc-4e0d-bd27-d86cf54a7069 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG Forwarding newSession on session null to remote org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG Forwarding newSession on session null to remote org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://127.0.0.1:4723
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to /127.0.0.1:4723
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:58633<->127.0.0.1:4723
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 10800000
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.execchain.MainClientExec - Executing request POST /wd/hub/session HTTP/1.1
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 >> POST /wd/hub/session HTTP/1.1
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 >> Content-Length: 199
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 >> Host: 127.0.0.1:4723
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_55)
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 >> "POST /wd/hub/session HTTP/1.1[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 >> "Content-Length: 199[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_55)[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 >> "{"desiredCapabilities":{"autoAcceptAlerts":"true","platformVersion":"9.1","app":"/Users/eschooling/Desktop/Connect Now.app","platformName":"iOS","deviceName":"iPhone 6s Plus","appium-version":"1.0"}}"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "Content-Length: 663[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "ETag: W/"297-spZo44jK5q+fBnb6j1hDyg"[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "Date: Tue, 11 Oct 2016 06:10:07 GMT[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "{"status":0,"value":{"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"autoAcceptAlerts":true,"platformVersion":"9.1","app":"/Users/eschooling/Desktop/Connect Now.app","platformName":"iOS","deviceName":"iPhone 6s Plus","appium-version":"1.0","showIOSLog":true,"desired":{"autoAcceptAlerts":"true","platformVersion":"9.1","app":"/Users/eschooling/Desktop/Connect Now.app","platformName":"iOS","deviceName":"iPhone 6s Plus","appium-version":"1.0","showIOSLog":true}},"sessionId":"c10ccfdf-76b2-4e19-a784-b482295f973f"}"
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 << X-Powered-By: Express
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 << Access-Control-Allow-Origin: *
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 << Vary: X-HTTP-Method-Override
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 << Content-Length: 663
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 << ETag: W/"297-spZo44jK5q+fBnb6j1hDyg"
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 << Date: Tue, 11 Oct 2016 06:10:07 GMT
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 << Connection: keep-alive
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.impl.execchain.MainClientExec - Stale connection check
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 << "[read] I/O error: Read timed out"
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 10800000
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.impl.execchain.MainClientExec - Executing request POST /wd/hub/session/c10ccfdf-76b2-4e19-a784-b482295f973f/timeouts HTTP/1.1
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.headers - http-outgoing-0 >> POST /wd/hub/session/c10ccfdf-76b2-4e19-a784-b482295f973f/timeouts HTTP/1.1
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.headers - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.headers - http-outgoing-0 >> Content-Length: 30
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.headers - http-outgoing-0 >> Host: 127.0.0.1:4723
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_55)
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 >> "POST /wd/hub/session/c10ccfdf-76b2-4e19-a784-b482295f973f/timeouts HTTP/1.1[\r][\n]"
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 >> "Content-Length: 30[\r][\n]"
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_55)[\r][\n]"
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 >> "{"type":"implicit","ms":60000}"
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 << "Content-Length: 76[\r][\n]"
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 << "ETag: W/"4c-6ziFywn2YBnr8rSfrIkMbg"[\r][\n]"
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 << "Date: Tue, 11 Oct 2016 06:10:07 GMT[\r][\n]"
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 << "{"status":0,"value":null,"sessionId":"c10ccfdf-76b2-4e19-a784-b482295f973f"}"
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.headers - http-outgoing-0 << X-Powered-By: Express
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.headers - http-outgoing-0 << Access-Control-Allow-Origin: *
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.headers - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.headers - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.headers - http-outgoing-0 << Vary: X-HTTP-Method-Override
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.headers - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.headers - http-outgoing-0 << Content-Length: 76
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.headers - http-outgoing-0 << ETag: W/"4c-6ziFywn2YBnr8rSfrIkMbg"
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.headers - http-outgoing-0 << Date: Tue, 11 Oct 2016 06:10:07 GMT
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.headers - http-outgoing-0 << Connection: keep-alive
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+DEBUG Forwarding setTimeout on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.impl.execchain.MainClientExec - Stale connection check
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 << "[read] I/O error: Read timed out"
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 10800000
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.impl.execchain.MainClientExec - Executing request DELETE /wd/hub/session/c10ccfdf-76b2-4e19-a784-b482295f973f HTTP/1.1
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.headers - http-outgoing-0 >> DELETE /wd/hub/session/c10ccfdf-76b2-4e19-a784-b482295f973f HTTP/1.1
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.headers - http-outgoing-0 >> Host: 127.0.0.1:4723
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_55)
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 >> "DELETE /wd/hub/session/c10ccfdf-76b2-4e19-a784-b482295f973f HTTP/1.1[\r][\n]"
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_55)[\r][\n]"
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 << "Content-Length: 76[\r][\n]"
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 << "ETag: W/"4c-6ziFywn2YBnr8rSfrIkMbg"[\r][\n]"
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 << "Date: Tue, 11 Oct 2016 06:10:20 GMT[\r][\n]"
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.wire - http-outgoing-0 << "{"status":0,"value":null,"sessionId":"c10ccfdf-76b2-4e19-a784-b482295f973f"}"
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.headers - http-outgoing-0 << X-Powered-By: Express
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.headers - http-outgoing-0 << Access-Control-Allow-Origin: *
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.headers - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.headers - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.headers - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.headers - http-outgoing-0 << Content-Length: 76
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.headers - http-outgoing-0 << ETag: W/"4c-6ziFywn2YBnr8rSfrIkMbg"
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.headers - http-outgoing-0 << Date: Tue, 11 Oct 2016 06:10:20 GMT
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.headers - http-outgoing-0 << Connection: keep-alive
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Closing connections idle longer than 0 SECONDS
+DEBUG Forwarding quit on session c10ccfdf-76b2-4e19-a784-b482295f973f to remote org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: Close connection
+DEBUG Forwarding newSession on session null to remote org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG Forwarding newSession on session null to remote org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://127.0.0.1:4723
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to /127.0.0.1:4723
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:64724<->127.0.0.1:4723
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 10800000
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.execchain.MainClientExec - Executing request POST /wd/hub/session HTTP/1.1
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 >> POST /wd/hub/session HTTP/1.1
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 >> Content-Length: 199
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 >> Host: 127.0.0.1:4723
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_55)
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 >> "POST /wd/hub/session HTTP/1.1[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 >> "Content-Length: 199[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_55)[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 >> "{"desiredCapabilities":{"autoAcceptAlerts":"true","platformVersion":"9.1","app":"/Users/eschooling/Desktop/Connect Now.app","platformName":"iOS","deviceName":"iPhone 6s Plus","appium-version":"1.0"}}"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "Content-Length: 663[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "ETag: W/"297-8WRfdaxiMnXBBpXV7Qiz5A"[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "Date: Thu, 13 Oct 2016 02:02:41 GMT[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "{"status":0,"value":{"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"autoAcceptAlerts":true,"platformVersion":"9.1","app":"/Users/eschooling/Desktop/Connect Now.app","platformName":"iOS","deviceName":"iPhone 6s Plus","appium-version":"1.0","showIOSLog":true,"desired":{"autoAcceptAlerts":"true","platformVersion":"9.1","app":"/Users/eschooling/Desktop/Connect Now.app","platformName":"iOS","deviceName":"iPhone 6s Plus","appium-version":"1.0","showIOSLog":true}},"sessionId":"496304e1-cc33-4c41-a594-a2d3cf2c7a13"}"
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 << X-Powered-By: Express
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 << Access-Control-Allow-Origin: *
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 << Vary: X-HTTP-Method-Override
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 << Content-Length: 663
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 << ETag: W/"297-8WRfdaxiMnXBBpXV7Qiz5A"
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 << Date: Thu, 13 Oct 2016 02:02:41 GMT
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 << Connection: keep-alive
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.impl.execchain.MainClientExec - Stale connection check
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 << "[read] I/O error: Read timed out"
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 10800000
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.impl.execchain.MainClientExec - Executing request POST /wd/hub/session/496304e1-cc33-4c41-a594-a2d3cf2c7a13/timeouts HTTP/1.1
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.headers - http-outgoing-0 >> POST /wd/hub/session/496304e1-cc33-4c41-a594-a2d3cf2c7a13/timeouts HTTP/1.1
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.headers - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.headers - http-outgoing-0 >> Content-Length: 30
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.headers - http-outgoing-0 >> Host: 127.0.0.1:4723
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_55)
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 >> "POST /wd/hub/session/496304e1-cc33-4c41-a594-a2d3cf2c7a13/timeouts HTTP/1.1[\r][\n]"
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 >> "Content-Length: 30[\r][\n]"
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_55)[\r][\n]"
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 >> "{"type":"implicit","ms":60000}"
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 << "Content-Length: 76[\r][\n]"
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 << "ETag: W/"4c-OVmdlEF3uZJxD2ZL6A8rrg"[\r][\n]"
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 << "Date: Thu, 13 Oct 2016 02:02:41 GMT[\r][\n]"
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 << "{"status":0,"value":null,"sessionId":"496304e1-cc33-4c41-a594-a2d3cf2c7a13"}"
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.headers - http-outgoing-0 << X-Powered-By: Express
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.headers - http-outgoing-0 << Access-Control-Allow-Origin: *
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.headers - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.headers - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.headers - http-outgoing-0 << Vary: X-HTTP-Method-Override
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.headers - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.headers - http-outgoing-0 << Content-Length: 76
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.headers - http-outgoing-0 << ETag: W/"4c-OVmdlEF3uZJxD2ZL6A8rrg"
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.headers - http-outgoing-0 << Date: Thu, 13 Oct 2016 02:02:41 GMT
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.headers - http-outgoing-0 << Connection: keep-alive
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+DEBUG Forwarding setTimeout on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.impl.execchain.MainClientExec - Stale connection check
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 << "[read] I/O error: Read timed out"
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 10800000
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.impl.execchain.MainClientExec - Executing request DELETE /wd/hub/session/496304e1-cc33-4c41-a594-a2d3cf2c7a13 HTTP/1.1
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.headers - http-outgoing-0 >> DELETE /wd/hub/session/496304e1-cc33-4c41-a594-a2d3cf2c7a13 HTTP/1.1
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.headers - http-outgoing-0 >> Host: 127.0.0.1:4723
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_55)
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 >> "DELETE /wd/hub/session/496304e1-cc33-4c41-a594-a2d3cf2c7a13 HTTP/1.1[\r][\n]"
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_55)[\r][\n]"
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 << "Content-Length: 76[\r][\n]"
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 << "ETag: W/"4c-OVmdlEF3uZJxD2ZL6A8rrg"[\r][\n]"
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 << "Date: Thu, 13 Oct 2016 02:02:53 GMT[\r][\n]"
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.wire - http-outgoing-0 << "{"status":0,"value":null,"sessionId":"496304e1-cc33-4c41-a594-a2d3cf2c7a13"}"
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.headers - http-outgoing-0 << X-Powered-By: Express
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.headers - http-outgoing-0 << Access-Control-Allow-Origin: *
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.headers - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.headers - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.headers - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.headers - http-outgoing-0 << Content-Length: 76
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.headers - http-outgoing-0 << ETag: W/"4c-OVmdlEF3uZJxD2ZL6A8rrg"
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.headers - http-outgoing-0 << Date: Thu, 13 Oct 2016 02:02:53 GMT
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.headers - http-outgoing-0 << Connection: keep-alive
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Closing connections idle longer than 0 SECONDS
+DEBUG Forwarding quit on session 496304e1-cc33-4c41-a594-a2d3cf2c7a13 to remote org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: Close connection
+DEBUG Forwarding newSession on session null to remote org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG Forwarding newSession on session null to remote org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://127.0.0.1:4723
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to /127.0.0.1:4723
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:64957<->127.0.0.1:4723
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 10800000
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.execchain.MainClientExec - Executing request POST /wd/hub/session HTTP/1.1
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 >> POST /wd/hub/session HTTP/1.1
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 >> Content-Length: 199
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 >> Host: 127.0.0.1:4723
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_55)
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 >> "POST /wd/hub/session HTTP/1.1[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 >> "Content-Length: 199[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_55)[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 >> "{"desiredCapabilities":{"autoAcceptAlerts":"true","platformVersion":"9.1","app":"/Users/eschooling/Desktop/Connect Now.app","platformName":"iOS","deviceName":"iPhone 6s Plus","appium-version":"1.0"}}"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "Content-Length: 663[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "ETag: W/"297-SorgtHMzFVxqMHZ0MLqucw"[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "Date: Thu, 13 Oct 2016 02:04:36 GMT[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "{"status":0,"value":{"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"autoAcceptAlerts":true,"platformVersion":"9.1","app":"/Users/eschooling/Desktop/Connect Now.app","platformName":"iOS","deviceName":"iPhone 6s Plus","appium-version":"1.0","showIOSLog":true,"desired":{"autoAcceptAlerts":"true","platformVersion":"9.1","app":"/Users/eschooling/Desktop/Connect Now.app","platformName":"iOS","deviceName":"iPhone 6s Plus","appium-version":"1.0","showIOSLog":true}},"sessionId":"b95c8403-fa53-474a-9580-a082b2db93e7"}"
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 << X-Powered-By: Express
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 << Access-Control-Allow-Origin: *
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 << Vary: X-HTTP-Method-Override
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 << Content-Length: 663
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 << ETag: W/"297-SorgtHMzFVxqMHZ0MLqucw"
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 << Date: Thu, 13 Oct 2016 02:04:36 GMT
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 << Connection: keep-alive
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.impl.execchain.MainClientExec - Stale connection check
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 << "[read] I/O error: Read timed out"
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 10800000
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.impl.execchain.MainClientExec - Executing request POST /wd/hub/session/b95c8403-fa53-474a-9580-a082b2db93e7/timeouts HTTP/1.1
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.headers - http-outgoing-0 >> POST /wd/hub/session/b95c8403-fa53-474a-9580-a082b2db93e7/timeouts HTTP/1.1
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.headers - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.headers - http-outgoing-0 >> Content-Length: 30
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.headers - http-outgoing-0 >> Host: 127.0.0.1:4723
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_55)
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 >> "POST /wd/hub/session/b95c8403-fa53-474a-9580-a082b2db93e7/timeouts HTTP/1.1[\r][\n]"
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 >> "Content-Length: 30[\r][\n]"
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_55)[\r][\n]"
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 >> "{"type":"implicit","ms":60000}"
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 << "Content-Length: 76[\r][\n]"
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 << "ETag: W/"4c-FG6fyOBBWCeeaFcGjUfWpg"[\r][\n]"
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 << "Date: Thu, 13 Oct 2016 02:04:36 GMT[\r][\n]"
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 << "{"status":0,"value":null,"sessionId":"b95c8403-fa53-474a-9580-a082b2db93e7"}"
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.headers - http-outgoing-0 << X-Powered-By: Express
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.headers - http-outgoing-0 << Access-Control-Allow-Origin: *
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.headers - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.headers - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.headers - http-outgoing-0 << Vary: X-HTTP-Method-Override
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.headers - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.headers - http-outgoing-0 << Content-Length: 76
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.headers - http-outgoing-0 << ETag: W/"4c-FG6fyOBBWCeeaFcGjUfWpg"
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.headers - http-outgoing-0 << Date: Thu, 13 Oct 2016 02:04:36 GMT
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.headers - http-outgoing-0 << Connection: keep-alive
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+DEBUG Forwarding setTimeout on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 << "[read] I/O error: Read timed out"
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.impl.execchain.MainClientExec - Stale connection check
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 << "[read] I/O error: Read timed out"
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 10800000
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.impl.execchain.MainClientExec - Executing request DELETE /wd/hub/session/b95c8403-fa53-474a-9580-a082b2db93e7 HTTP/1.1
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.headers - http-outgoing-0 >> DELETE /wd/hub/session/b95c8403-fa53-474a-9580-a082b2db93e7 HTTP/1.1
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.headers - http-outgoing-0 >> Host: 127.0.0.1:4723
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_55)
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 >> "DELETE /wd/hub/session/b95c8403-fa53-474a-9580-a082b2db93e7 HTTP/1.1[\r][\n]"
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_55)[\r][\n]"
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 << "Content-Length: 76[\r][\n]"
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 << "ETag: W/"4c-FG6fyOBBWCeeaFcGjUfWpg"[\r][\n]"
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 << "Date: Thu, 13 Oct 2016 02:05:00 GMT[\r][\n]"
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.wire - http-outgoing-0 << "{"status":0,"value":null,"sessionId":"b95c8403-fa53-474a-9580-a082b2db93e7"}"
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.headers - http-outgoing-0 << X-Powered-By: Express
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.headers - http-outgoing-0 << Access-Control-Allow-Origin: *
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.headers - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.headers - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.headers - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.headers - http-outgoing-0 << Content-Length: 76
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.headers - http-outgoing-0 << ETag: W/"4c-FG6fyOBBWCeeaFcGjUfWpg"
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.headers - http-outgoing-0 << Date: Thu, 13 Oct 2016 02:05:00 GMT
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.headers - http-outgoing-0 << Connection: keep-alive
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Closing connections idle longer than 0 SECONDS
+DEBUG Forwarding quit on session b95c8403-fa53-474a-9580-a082b2db93e7 to remote org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: Close connection

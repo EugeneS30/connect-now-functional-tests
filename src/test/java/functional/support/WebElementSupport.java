@@ -1,4 +1,4 @@
-package functional.pages;
+package functional.support;
 
 import java.util.List;
 

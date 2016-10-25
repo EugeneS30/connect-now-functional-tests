@@ -8,8 +8,12 @@ public interface Stream {
 	
 	void addDiscussion(StreamType where, String id, TestData data);
 	
-	boolean cardExists(TestData data);
-
+	boolean noticeExists(Notice notice);
 	
+	boolean discussionExists(Discussion discussion);
+	
+	Stream view();
+	
+	Stream refresh();
 
 }

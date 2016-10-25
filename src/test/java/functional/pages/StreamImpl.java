@@ -2,25 +2,37 @@ package functional.pages;
 
 import java.util.List;
 
+import javax.inject.Inject;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.springframework.stereotype.Component;
 
+import functional.support.AppiumSupport;
 import io.appium.java_client.AppiumDriver;
 
+@Component
 public class StreamImpl implements Stream {
-
-	private StreamToolbar toolbar;
-	private StreamActionToolbar actionToolbar;
-	private NewNoticeDialog newNoticeDialog;
-	private NewDiscussionDialog newDiscussionDialog;
-	private List<Card> cards;
 
 	public StreamImpl(AppiumDriver<WebElement> driver) {
 		PageFactory.initElements(driver, this);
-		toolbar = new StreamToolbar(driver);
-		actionToolbar = new StreamActionToolbarImpl(driver);
 	}
+
+	@Inject
+	private StreamToolbar toolbar;
+
+	@Inject
+	private StreamActionToolbar actionToolbar;
+
+	@Inject
+	private AppiumSupport support;
+	
+	@Inject
+	private NewNoticeDialog newNoticeDialog;
+	
+	@Inject
+	private NewDiscussionDialog newDiscussionDialog;
 
 	final static String STREAM_CONTAINER_CSS = ".x-panel .x-dock-body ";
 
@@ -28,13 +40,6 @@ public class StreamImpl implements Stream {
 
 	@FindBy(css = STREAM_CONTAINER_CSS + ".c-stream__item")
 	private List<WebElement> itemsList;
-
-	// private void scanCardsInFeed() {
-	// for (WebElement card : itemsList) {
-	// cards.add(new CardImpl(card., cardLabel, teacherName, timeCreated,
-	// cardTitle, cardContent, comments, subscription, bookmark, settings))
-	// }
-	// }
 
 	@Override
 	public void addNotice(final StreamType where, final String id, NoticeTestData data) {
@@ -77,10 +82,30 @@ public class StreamImpl implements Stream {
 	}
 
 	@Override
-	public boolean cardExists(TestData data) {
+	public boolean noticeExists(Notice notice) {
+
 		return false;
-		// return itemsList.stream().filter(item -> item.getText())
+
 	}
 
-	
+	@Override
+	public boolean discussionExists(Discussion discussion) {
+
+		return false;
+	}
+
+	// navigate to the main screen using main menu action
+	@Override
+	public Stream view() {
+		toolbar.viewStream();
+		return this;
+	}
+
+	// refresh screen by swiping down
+	@Override
+	public Stream refresh() {
+		support.swipeDown();
+		return this;
+	}
+
 }

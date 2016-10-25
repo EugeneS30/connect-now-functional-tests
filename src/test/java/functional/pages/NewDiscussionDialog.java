@@ -5,7 +5,9 @@ import java.util.List;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.springframework.stereotype.Component;
 
+import functional.support.WebElementSupport;
 import io.appium.java_client.AppiumDriver;
 
 /**
@@ -13,6 +15,7 @@ import io.appium.java_client.AppiumDriver;
  * @author eugene.shragovich This class encapsulates
  *
  */
+@Component
 public class NewDiscussionDialog implements NewCardDialog {
 
 	public NewDiscussionDialog(AppiumDriver<WebElement> driver) {

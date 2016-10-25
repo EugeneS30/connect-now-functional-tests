@@ -5,6 +5,8 @@ import java.net.URL;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
+import javax.inject.Inject;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -15,6 +17,8 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.test.context.ContextConfiguration;
 
+import cucumber.api.java.After;
+import functional.pages.WelcomePage;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.ios.IOSDriver;
 
@@ -23,7 +27,7 @@ import io.appium.java_client.ios.IOSDriver;
 @ComponentScan()
 public class TestConfig {
 
-	@Autowired
+	@Bean(destroyMethod="quit")
 	public AppiumDriver<WebElement> getDriver() throws MalformedURLException {
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		capabilities.setCapability("autoAcceptAlerts", "true");
@@ -32,7 +36,7 @@ public class TestConfig {
 		capabilities.setCapability("platformVersion", "9.1");
 		capabilities.setCapability("deviceName", "iPhone 6s Plus");
 		capabilities.setCapability("nativeWebTap", true);
-		capabilities.setCapability("app", "/Users/eschooling/Desktop/ConnectNow.app");
+		capabilities.setCapability("app", "/Users/eschooling/Desktop/Connect Now.app");
 		URL URLString = new URL("http://127.0.0.1:4723/wd/hub");
 		AppiumDriver<WebElement> driver = new IOSDriver<WebElement>(URLString, capabilities);
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);

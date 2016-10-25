@@ -3,9 +3,12 @@ package functional.pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.springframework.stereotype.Component;
 
+import functional.support.WebElementSupport;
 import io.appium.java_client.AppiumDriver;
 
+@Component
 public class LoginPage {
 
 	public LoginPage(AppiumDriver<WebElement> driver) {

@@ -7,7 +7,8 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = { "classpath:connect_now_features" }, glue = { "functional.steps", "functional.dev",
-		"functional.configuration" })
+		"functional.configuration" }, plugin = { "html:target/cucumber-html-report",
+				"json:target/cucumber-json-report.json"})
 public class RunnerIT {
 
 }

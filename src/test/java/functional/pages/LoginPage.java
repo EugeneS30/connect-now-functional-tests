@@ -29,8 +29,12 @@ public class LoginPage {
 
 	public void login(String username, String password) {
 
+		usernameField.clear();
 		usernameField.sendKeys(username);
+		
+		passwordField.clear();
 		passwordField.sendKeys(password);
+		
 		loginBtn.click();
 
 		WebElementSupport.waitUntilElementAppears(okBtn);

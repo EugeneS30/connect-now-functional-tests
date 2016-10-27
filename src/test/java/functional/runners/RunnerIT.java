@@ -8,6 +8,6 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = { "classpath:connect_now_features" }, glue = { "functional.steps", "functional.dev",
 		"functional.configuration" })
-public class Runner {
+public class RunnerIT {
 
 }

@@ -32,19 +32,21 @@ public class ClassNoticesSteps {
 	// notices.addNoticeToClass();
 	// }
 
-	@When("^I add a new Notice to the class: \"([^\"]*)\"$")
+	@Given("^I have added a new Notice to class: \"([^\"]*)\"$")
+	@When("^I add a new Notice to class: \"([^\"]*)\"$")
 	public void i_add_new_notice_to_class(final String className) {
 		context.setClassName(className);
 		notices.addNoticeToClass(className);
 	}
 
+//	@When("^the Notice is in the Stream feed$")
 //	@Then("^Then I (shall|shall not) see the Notice in the Stream feed$")
 //	public void notice_maybe(final String maybe) {
 //
 //		boolean expected = "shall".equals(maybe);
-//		
+//
 //		Notice notice = context.getNotice();
-//		
+//
 //		assertThat(stream.noticeExists(notice)).isEqualTo(expected);
 //
 //	}

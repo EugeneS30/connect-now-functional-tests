@@ -5,27 +5,20 @@ import java.net.URL;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
-import javax.inject.Inject;
-
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.test.context.ContextConfiguration;
 
-import cucumber.api.java.After;
-import functional.pages.WelcomePage;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.ios.IOSDriver;
 
 @ContextConfiguration("classpath:/cucumber.xml")
 @Configuration
 @ComponentScan()
-public class TestConfig {
+public class AppiumConfig {
 
 	@Bean(destroyMethod="quit")
 	public AppiumDriver<WebElement> getDriver() throws MalformedURLException {

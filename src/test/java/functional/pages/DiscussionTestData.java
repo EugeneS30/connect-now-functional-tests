@@ -18,4 +18,32 @@ public class DiscussionTestData implements Discussion {
 		return CardType.DISCUSSION;
 	}
 
+
+	@Override
+	public void edit() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	@Override
+	public void unfollow() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	@Override
+	public void hide() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	@Override
+	public void report() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

@@ -16,4 +16,28 @@ public class NoticeTestData implements Notice {
 		return CardType.NOTICE;
 	}
 
+	@Override
+	public void edit() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void unfollow() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void hide() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void report() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

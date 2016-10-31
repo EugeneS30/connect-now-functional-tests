@@ -10,7 +10,6 @@ Feature: Notices
 	And I have refreshed the Stream screen
 	Then I shall see the Notice in the Stream feed
 
-  @ignore
   Scenario: A teacher can hide a Notice 
     Given I have added a new Notice to class: "ConnectNowTestClass"
 	And I have refreshed the Stream screen

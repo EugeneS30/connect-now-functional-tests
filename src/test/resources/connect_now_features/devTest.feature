@@ -6,5 +6,6 @@ Feature: Notices
 	And I have logged in as "e2023069" 
 
   @wip
-  Scenario: A teacher can add a new Notice 
+  Scenario: A teacher can add a new Notice
+    Given the stream is clean
 	And I have refreshed the Stream screen

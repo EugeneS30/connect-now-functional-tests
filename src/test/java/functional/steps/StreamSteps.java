@@ -37,15 +37,25 @@ public class StreamSteps {
 		stream.refresh();
 	}
 
-	@Then("^Then I (shall|shall not) see the Notice in the Stream feed$")
+	@Then("^I (shall|shall not) see the Notice in the Stream feed$")
 	public void notice_maybe_appears_in_stream(final String maybe) {
 
 		boolean expected = "shall".equals(maybe);
-		
 		Notice notice = context.getNotice();
 		
 		assertThat(stream.noticeExists(notice)).isEqualTo(expected);
-
 	}
+	
+	@Given("^the stream is clean$")
+	public void the_stream_is_clean() {
+		
+		if (!stream.isClean()) {
+			stream.clean();
+		}
+		
+		assertThat(stream.isClean()).isTrue();
+		
+	}
+	
 
 }

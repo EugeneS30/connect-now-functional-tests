@@ -1,8 +1,6 @@
 package functional.pages;
 
-public interface Card {
-	
-	CardType getCardType();
+public interface CardSettings {
 	
 	void edit();
 	
@@ -10,6 +8,6 @@ public interface Card {
 	
 	void hide();
 	
-	void report();	
+	void report();
 
 }

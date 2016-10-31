@@ -1,5 +1,7 @@
 package functional.pages;
 
+import javax.inject.Inject;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -7,13 +9,18 @@ import org.springframework.stereotype.Component;
 
 import functional.support.WebElementSupport;
 import io.appium.java_client.AppiumDriver;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @Component
 public class LoginPage {
 
 	public LoginPage(AppiumDriver<WebElement> driver) {
 		PageFactory.initElements(driver, this);
 	}
+	
+	@Inject
+	private ErrorDialog dialog;
 
 	@FindBy(css = ".x-input-text")
 	private WebElement usernameField;
@@ -28,6 +35,7 @@ public class LoginPage {
 	private WebElement okBtn;
 
 	public void login(String username, String password) {
+		log.info("Attempting to login as {}: ", username);
 
 		usernameField.clear();
 		usernameField.sendKeys(username);
@@ -38,7 +46,9 @@ public class LoginPage {
 		loginBtn.click();
 
 		WebElementSupport.waitUntilElementAppears(okBtn);
-		okBtn.click();
+		if (dialog.isVisible()) {
+			dialog.accept();
+		}
 
 	}
 

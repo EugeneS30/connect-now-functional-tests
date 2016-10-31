@@ -15,5 +15,9 @@ public interface Stream {
 	Stream view();
 	
 	Stream refresh();
+	
+	boolean isClean();
+	
+	void clean();
 
 }

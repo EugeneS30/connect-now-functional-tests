@@ -35,8 +35,8 @@ public class ClassNoticesSteps {
 	@Given("^I have added a new Notice to class: \"([^\"]*)\"$")
 	@When("^I add a new Notice to class: \"([^\"]*)\"$")
 	public void i_add_new_notice_to_class(final String className) {
-		context.setClassName(className);
 		notices.addNoticeToClass(className);
+		context.setClassName(className);
 	}
 
 //	@When("^the Notice is in the Stream feed$")

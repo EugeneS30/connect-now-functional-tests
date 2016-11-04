@@ -1,7 +1,10 @@
 package functional.scenarios;
 
+import java.util.UUID;
+
 import javax.inject.Inject;
 
+import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Component;
 
 import functional.context.ScenarioContext;
@@ -20,12 +23,17 @@ public class ScenarioClassNotices {
 	
 	@Inject
 	private ScenarioContext context;
+	
+	@Inject
+	private ApplicationContext ctx;
 
 	public void addNoticeToClass(final String className) {
 		
+		String randomString = "AT-" + UUID.randomUUID().toString();
+		
 		NoticeTestData testNotice = NoticeTestData.builder()
-				.title("test")
-				.message("message")
+				.title(randomString)
+				.message(randomString)
 				.isShown(true)
 				.build();
 

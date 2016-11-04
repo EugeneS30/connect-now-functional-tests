@@ -19,5 +19,9 @@ public interface Stream {
 	boolean isClean();
 	
 	void clean();
+	
+	Card getCard(Notice notice);
+	
+	Card getCard(Discussion notice);
 
 }

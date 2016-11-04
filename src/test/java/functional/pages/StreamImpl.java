@@ -2,6 +2,7 @@ package functional.pages;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.NoSuchElementException;
 
 import javax.inject.Inject;
 
@@ -11,6 +12,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Component;
 
+import cucumber.api.PendingException;
 import functional.support.AppiumSupport;
 import functional.support.WebElementSupport;
 import io.appium.java_client.AppiumDriver;
@@ -43,11 +45,17 @@ public class StreamImpl implements Stream {
 	private NewDiscussionDialog newDiscussionDialog;
 
 	@Inject
-	private StreamCardsList streamCards;
+	private ApplicationContext ctx;
+
+	// @Inject
+	// private StreamCardsList streamCards;
 
 	final static String STREAM_CONTAINER_CSS = ".x-panel .x-dock-body ";
 
 	final static String STREAMTOOLBAR_CONTAINER_CSS = ".x-panel .x-docked-top";
+
+	@FindBy(css = STREAM_CONTAINER_CSS)
+	private WebElement streamContainer;
 
 	@FindBy(css = STREAM_CONTAINER_CSS + ".c-stream__item")
 	private List<WebElement> itemsList;
@@ -95,7 +103,8 @@ public class StreamImpl implements Stream {
 	@Override
 	public boolean noticeExists(Notice notice) {
 
-		return false;
+		List<Card> allNoticesInStream = getStreamNoticeCards();
+		return allNoticesInStream.stream().anyMatch(card -> card.getCardTitle().equals(notice.getCardTitle()));
 
 	}
 
@@ -122,35 +131,92 @@ public class StreamImpl implements Stream {
 
 	@Override
 	public boolean isClean() {
+		// assuming that the container is actually invisible while refreshing
+		WebElementSupport.waitUntilElementAppears(streamContainer);
 		int items = itemsList.size();
 		log.debug("Items list: {}", items);
-		log.debug("Returning isClean = {}", items == 0);
-		return items == 0; //return false is the items is not 0
+		log.info("Returning Stream.isClean = {}", items == 0);
+		return items == 0; // return false is the items is not 0
 	}
 
 	// While deleting cards is planned but has not been implemented yet,
 	// currently all the cards are just hidden.
 	@Override
 	public void clean() {
+		log.info("Cleaning the Stream");
 		while (!isClean()) {
-			StreamCardsList cards = getAvailableStreamCards();
-			log.info("Currently counted : {} cards", cards.getCards().size());
-			cards.getCards().get(0).hide();
+			// StreamCardsList cards = getAllAvailableStreamCards();
+			Card card = getRandomAvailableStreamCard();
+			// log.info("Currently counted : {} cards",
+			// cards.getCards().size());
+			// cards.getCards().get(0).hide();
+			card.hide();
 			refresh();
 		}
+		log.info("Nothing else to clean");
 	}
 
-	private StreamCardsList getAvailableStreamCards() {
+	// private StreamCardsList getAllAvailableStreamCards() {
+	//
+	// List<Card> cards = new ArrayList<Card>();
+	//
+	// for (WebElement cardElement : itemsList) {
+	// cards.add(new CardImpl(cardElement, driver));
+	// }
+	//
+	// streamCards.setCards(cards);
+	//
+	// return streamCards;
+	//
+	// }
 
-		List<Card> cards = new ArrayList<Card>();
+	private Card getRandomAvailableStreamCard() {
+
+		// return card;
+
+		// return new CardImpl(itemsList.get(0), driver);
+		// return ctx.getBean("Card", itemsList.get(0));
+		return (CardImpl) ctx.getBean("Card", driver, itemsList.get(0));
+
+	}
+
+	// filter all notices from the Stream
+	private List<Card> getStreamNoticeCards() {
+
+		List<Card> noticeCards = new ArrayList<Card>();
 
 		for (WebElement cardElement : itemsList) {
-			cards.add(new CardImpl(cardElement, driver));
+			Card card = ctx.getBean(CardImpl.class);
+			// Card card = new CardImpl(cardElement, driver);
+
+			if (CardType.NOTICE.equals(card.getCardType())) {
+				noticeCards.add(card);
+			}
+
+			// if (card.getCardType().equals(CardType.NOTICE)) {
+			// noticeCards.add(card);
+			// }
+
 		}
+		return noticeCards;
+	}
 
-		streamCards.setCards(cards);
+	@Override
+	public Card getCard(Notice notice) {
 
-		return streamCards;
+		WebElement item = itemsList.stream().filter(listItem -> listItem.getText().contains(notice.getTitle()))
+				.findFirst().orElseThrow(() -> new NoSuchElementException());
+
+		return (CardImpl) ctx.getBean("Card", driver, item);
+
+	}
+
+	@Override
+	public Card getCard(Discussion discussion) {
+		WebElement item = itemsList.stream().filter(listItem -> listItem.getText().contains(discussion.getTitle()))
+				.findFirst().orElseThrow(() -> new NoSuchElementException());
+
+		return (CardImpl) ctx.getBean("Card", driver, item);
 
 	}
 

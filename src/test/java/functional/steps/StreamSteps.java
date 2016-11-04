@@ -1,17 +1,16 @@
 package functional.steps;
 
+import static org.assertj.core.api.Assertions.assertThat;
+
 import javax.inject.Inject;
-
-import static org.assertj.core.api.Assertions.*;
-
-import org.springframework.stereotype.Component;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import functional.context.ScenarioContext;
+import functional.pages.Card;
+import functional.pages.CardImpl;
 import functional.pages.Notice;
-import functional.pages.NoticeTestData;
 import functional.pages.Stream;
 import functional.scenarios.ScenarioClassNotices;
 
@@ -25,12 +24,33 @@ public class StreamSteps {
 	
 	@Inject
 	private ScenarioContext context;
+	
+//	@Inject
+//	private CardImpl card;
 
-	// @When("^I add a new Notice$")
-	// @Given("^I have added a new Notice$")
-	// public void i_add_new_notice() {
-	// notices.addNoticeToClass();
-	// }
+	@When("^I bookmark the notice$")
+	public void i_bookmark_the_notice() {
+		
+		Notice notice = context.getNotice();
+		stream.getCard(notice).bookmark();
+		
+//		notice.bookmark();
+		
+	}
+	
+	@When("^I filter the Stream by $")
+	public void i_filter_stream_by(final String filter) {
+		
+	}
+	@Then("^I (shall|shall not) see the Notice in the filtered Stream feed$")
+	public void notice_maybe_appears_in_filtered_stream(final String maybe) {
+
+		boolean expected = "shall".equals(maybe);
+		Notice notice = context.getNotice();
+		
+//		assertThat(stream.noticeExists(notice)).isEqualTo(expected);
+	}
+	
 
 	@When("^I have refreshed the Stream screen$")
 	public void i_refresh_the_screen() {

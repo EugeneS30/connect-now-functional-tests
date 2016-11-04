@@ -13,11 +13,10 @@ import lombok.extern.slf4j.Slf4j;
 public final class WebElementSupport {
 
 	public static WebElement getElementFromList(String elementName, List<WebElement> elements) {
-		log.info("Looking for element: {}", elementName);
-		System.out.println("Looking for element: " + elementName);
+		log.info("Looking for element in list: {}", elementName);
 
 		for (WebElement element : elements) {
-			log.info("Current element: {}", element.getText());
+			log.debug("Current element: {}", element.getText());
 			if (element.getText().toLowerCase().contains(elementName.toLowerCase())) {
 				return element;
 			}
@@ -46,17 +45,20 @@ public final class WebElementSupport {
 
 	public static void waitUntilElementAppears(WebElement element) {
 		log.info("Wait for element to appear: {}", element.getText());
-		int attempts = 3;
+		int attempts = 5;
 		int currentAttempt = 0;
+		long waitTime = 1000;
 
 		while (currentAttempt < attempts) {
 			try {
+				log.info("Attempt: {}", currentAttempt);
 				element.isDisplayed();
 				return;
 			} catch (WebDriverException e) {
 				attempts++;
 				log.error("The elemen was not found! {}", e.getMessage());
-				waitFor(1000);
+				log.info("Sleeping {} ms", waitTime);
+				waitFor(waitTime);
 			}
 		}
 	}
